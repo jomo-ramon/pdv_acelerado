@@ -1,0 +1,20 @@
+<?= $this->extend('layouts/layout-default') ?>
+<!-- Page Title -->
+<?= $this->section('page-title') ?> Dashboard<?= $this->endSection() ?>
+
+<!-- Page Header (Title and Subtitle) -->
+<?= $this->section('header') ?>
+<?= render_header('Dashboard') ?>
+<?= $this->endSection() ?>
+
+<!-- Page Header Breadcumb -->
+<?= $this->section('breadcumb') ?>
+<?= render_breadcumb([
+    'Dashboard' => ''
+]) ?>
+<?= $this->endSection() ?>
+
+<!-- Content -->
+<?= $this->section('content') ?>
+    <h1>Hi</h1>
+<?= $this->endSection() ?>
