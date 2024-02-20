@@ -56,7 +56,7 @@ EOQ;
         $sql = <<<EOQ
         SELECT 
 	        c.id_campanha, c.descricao, c.nome_campanha, 
-	        c.data_inicio, c.data_final, c.observacao, c.`status`, c.tipo_campanha as tipo	 
+	        c.data_inicio, c.data_final, c.`status`, c.tipo_campanha as tipo	 
         FROM campanhas AS c ORDER BY id_campanha DESC;
 EOQ;
         $results = $this->db->query($sql)->getResultObject();
