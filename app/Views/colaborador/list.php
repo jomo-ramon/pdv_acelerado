@@ -101,7 +101,7 @@
                 </div>
                 <div class="mb-3">
                     <select class="form-control select2 flex-grow-1 w-100" id="select-single" name="id_loja"
-                        aria-label="Vincular Loja" name="id_loja" placeholder="Vincular Loja">
+                        aria-label="Vincular Loja por CNPJ" name="id_loja" placeholder="Vincular Loja por CNPJ">
                     </select>
                     <div class="invalid-feedback" data-field="id_loja">
                         Forneça a loja.

@@ -100,17 +100,6 @@
                         Forneça o seu CNPJ.
                     </div>
                 </div>
-                <div class="input-group mb-3">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" name="negociacao" id="addNegociacaoFornecedor"
-                            placeholder="Negociação" value="0,00">
-                        <label for="addNegociacaoFornecedor">Negociação</label>
-                    </div>
-                    <span class="input-group-text">%</span>
-                    <div class="invalid-feedback" data-field="negociacao">
-                        Forneça um valor de negociação.
-                    </div>
-                </div>
                 <div class="form-floating mb-3">
                     <input type="email" class="form-control" id="addEmailUserForn" name="email"
                         placeholder="name@example.com">

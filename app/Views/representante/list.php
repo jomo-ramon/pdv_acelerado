@@ -1,6 +1,6 @@
 <?= $this->extend('layouts/layout-default') ?>
 <!-- Page Title -->
-<?= $this->section('page-title') ?> Representantes
+<?= $this->section('page-title') ?> Revendedores
 <?= $this->endSection() ?>
 
 <!-- Page Header (Title and Subtitle) -->
@@ -14,7 +14,7 @@
     render_breadcumb([
         'Administração' => '',
         'Fornecedores' => '',
-        'Representantes' => ''
+        'Revendedores' => ''
     ])
     ?>
 <?= $this->endSection() ?>
@@ -37,7 +37,7 @@
                 <tr>
                     <th></th>
                     <th>ID</th>
-                    <th>Representante</th>
+                    <th>Revendedores</th>
                     <th>Forecedores</th>
                     <th>Opções</th>
                 </tr>
@@ -52,7 +52,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Adicionar Representante</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Adicionar Revendedor</h1>
             </div>
             <div class="modal-body">
                 <?= form_open('/api/administracao/representantes/store', ['id' => 'formAddRepresentante', 'class' => 'needs-validation', 'novalidate' => true]) ?>
@@ -61,7 +61,7 @@
                         placeholder="Nome Completo" required>
                     <label for="addNomeRep" class="form-label">Nome Completo</label>
                     <div class="invalid-feedback" data-field="nome_representante">
-                        Forneça o nome do representante.
+                        Forneça o nome do Revendedor.
                     </div>
                 </div>
                 <div class="form-floating mb-3">
@@ -122,7 +122,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="modalEditLabel">Editar Representante</h1>
+                <h1 class="modal-title fs-5" id="modalEditLabel">Editar Revendedor</h1>
             </div>
             <div class="modal-body">
                 <ul class="nav nav-pills" id="tabEdit">
@@ -205,7 +205,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="modalRemoveLabel">Excluir Representante</h1>
+                <h1 class="modal-title fs-5" id="modalRemoveLabel">Excluir Revendedor</h1>
             </div>
             <div class="modal-body">
                 <?= form_open('/api/administracao/representantes/destroy', ['id' => 'formRemoveRepresentante', 'class' => 'needs-validation', 'novalidate' => true]) ?>
@@ -238,7 +238,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="modalBlockLabel">Bloquear Representante</h1>
+                <h1 class="modal-title fs-5" id="modalBlockLabel">Bloquear Revendedor</h1>
             </div>
             <div class="modal-body">
                 <?= form_open('/api/administracao/representantes/block', ['id' => 'formBlockRepresentante', 'class' => 'needs-validation', 'novalidate' => true]) ?>
