@@ -39,9 +39,6 @@ var jquery_datatable = $("#table1").DataTable({
             }
         },
         {
-            data: 'observacao',
-        },
-        {
             data: null,
             orderable: false,
             render: function(data, type, row, meta) {

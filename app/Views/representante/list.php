@@ -5,7 +5,7 @@
 
 <!-- Page Header (Title and Subtitle) -->
 <?= $this->section('header') ?>
-<?= render_header('Representantes') ?>
+<?= render_header('Revendedores') ?>
 <?= $this->endSection() ?>
 
 <!-- Page Header Breadcumb -->

@@ -80,7 +80,7 @@ function reload_products_list(){
     let total_ac = parseFloat(total_discount + ((total_discount *  percent) / 100));
     console.log(total_ac);
     let discout_text = (negociacao == 0.00) ? "" : `- ${negociacao}%`;
-    $("#addTotalCampanha").val(`Total da campanha: R$ ${total} ${discout_text} + ${percent}% = ${total_ac} R$`);
+    $("#addTotalCampanha").val(`Total da campanha: R$ ${total} + ${percent}% = ${total_ac} R$`);
 }
 
 function delete_product(ean){

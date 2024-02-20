@@ -39,7 +39,6 @@
                     <th>Data de Início</th>
                     <th>Data de Término</th>
                     <th>Status</th>
-                    <th>Observação</th>
                     <th>Tipo</th>
                 </tr>
             </thead>

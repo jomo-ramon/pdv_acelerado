@@ -37,16 +37,6 @@ var jquery_datatable = $("#table1").DataTable({
             data: 'status'
         },
         {
-            data: 'observacao',
-            // orderable: false,
-            // render: function(data, type, row, meta) {
-            //     let edit = `<button type="button" class="btn btn-primary btn-edit mb-1 ml-1"  title="Editar" data-bs-toggle="modal" data-bs-target="#modalEdit"><i class="bi bi-pencil"></i></button>`;
-            //     let block = (row.blocked == 1) ? `<button type="button" class="btn btn-primary mb-1 ml-1"  title="Desbloquear" data-bs-toggle="modal" data-bs-target="#modalBlock" data-bs-razao-social="${row.razao_social}" data-bs-id="${row.id_loja}" data-bs-action='0'"><i class="bi bi-unlock-fill"></i></button>` :`<button type="button" class="btn btn-primary mb-1 ml-1"  title="Bloquear" data-bs-toggle="modal" data-bs-target="#modalBlock" data-bs-razao-social="${row.razao_social}" data-bs-id="${row.id_loja}" data-bs-action='1'><i class="bi bi-lock-fill"></i></button>`
-            //     let trash = `<button type="button" class="btn btn-primary btn-delete mb-1 ml-1"  data-bs-toggle="modal" data-bs-target="#modalRemove" data-bs-razao-social="${row.razao_social}" data-bs-id="${row.id_loja}" class="btn btn-secondary" title="Remover"><i class="bi bi-trash"></i></button>`;
-            //     return `${edit} ${block} ${trash}`;
-            // }
-        },
-        {
             data: 'tipo'
         },
     ],

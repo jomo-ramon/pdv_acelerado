@@ -147,7 +147,7 @@
                     <li class="sidebar-item  ">
                         <a href="<?= route_to('representante.list') ?>" class='sidebar-link'>
                             <i class="bi bi-person-check-fill"></i>
-                            <span>Representantes</span>
+                            <span>Revendedores</span>
                         </a>
                     </li>
                 <?php endif; ?>
