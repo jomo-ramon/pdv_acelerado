@@ -103,6 +103,8 @@
                     <select class="form-control select2 flex-grow-1 w-100" id="select-single" name="id_loja"
                         aria-label="Vincular Loja por CNPJ" name="id_loja" placeholder="Vincular Loja por CNPJ">
                     </select>
+                    <label for="id_loja" class="form-label">Vincular Loja por CNPJ</label>
+
                     <div class="invalid-feedback" data-field="id_loja">
                         Forneça a loja.
                     </div>
