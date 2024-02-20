@@ -5,7 +5,7 @@ $(document).ready(function () {
     $('#editCpfColaborador').mask('000.000.000-00');
     $('#editTelefone').mask('0#');
     $('#select-single').select2({
-        placeholder: "Vincular Loja",
+        placeholder: "Vincular Loja por CNPJ",
         minimumInputLength: 2,
         theme: "bootstrap-5",
         ajax: {
